@@ -8,13 +8,17 @@
 import SwiftUI
 
 struct SubTitle: View {
+    var text: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(text)
+            .font(.subheadline)
+            .fontWeight(.light)
+            .foregroundColor(Color.black)
     }
 }
 
 struct SubTitle_Previews: PreviewProvider {
     static var previews: some View {
-        SubTitle()
+        SubTitle(text: "")
     }
 }

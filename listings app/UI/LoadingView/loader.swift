@@ -1,9 +1,10 @@
 //
 //  Loader.swift
-//  Timicle
+//  listings app
 //
-//  Created by Apple on 20/09/2021.
+//  Created by Madney on 22/06/2022.
 //
+
 
 import SwiftUI
 
@@ -14,9 +15,11 @@ struct Loader: View {
             
             HStack {
                 Spacer()
+                
                 ProgressView()
                     .progressViewStyle(CircularProgressViewStyle(tint: .black))
                     .scaleEffect(2)
+                
                 Spacer()
             }
             
